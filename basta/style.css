@@ -1,0 +1,18 @@
+body{background-color:GhostWhite;Color: gold; font-family: 'Lobster', cursive;}
+
+.Gyro{width: 25%;}
+
+.capivara{background-color: DodgerBlue; color: rgb(235, 234, 231); display:flex; justify-content: space-around;}
+* {margin: 0%; padding: 0%;}
+
+.local {background-image: linear-gradient(MintCream,MintCream(248, 213, 147)); color: MintCream(255, 255, 255); display:flex; justify-content: center; align-items: center; padding: 24px 0;}
+.imagem-local{width: 20%; padding: 0px 0px 0px 20px;}
+.sobre-o-local{padding: 4px 10px;}
+.dev{width: 20%;}
+.rodapé{background-color: DodgerBlue}
+
+.estudante-todos{ 
+    display: grid;
+    grid-template-columns: 25%  35%  25% ;
+    text-align: center;
+}

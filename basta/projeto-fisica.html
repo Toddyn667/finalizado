@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Robotica</title>
+</head>
+<body>
+    
+    <h1>Colégio Estadual do Paraná - Ensino Fundamental, Médio e Profissional</h1>
+ <h2>Colégio Estadual do Paraná - Ensino Fundamental, Médio e Profissional</h2>
+   <h3>
+    Projeto: Sinaleiro
+    Componentes: Angeli Fiorese n°05, Luiz Vinícius n°26, Leonardo Lech n°24, Kauã Cassel n°
+    Turma: 2° Q</h3>
+<h3>Título do Projeto: CEP</h3>
+<h3>bjetivo(s) do Projeto: Desenvolvimento de um site com o tema do colégio. </h3>
+
+   <h3> Material e Métodos: Leds de 3 cores, resistores, cabos macho, placa de ensaio, Arduino e a plataforma Tinkercad.</h3>
+
+<h3>Projeto: 
+// C++ code
+//
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);
+  digitalWrite(12, LOW);
+  digitalWrite(11, LOW);
+  delay(5000); // Wait for 5000 millisecond(s)
+  digitalWrite(13, LOW);
+  digitalWrite(12, HIGH);
+  digitalWrite(11, LOW);
+  delay(2000); // Wait for 2000 millisecond(s)
+  digitalWrite(13, LOW);
+  digitalWrite(12, LOW);
+  digitalWrite(11, HIGH);
+  delay(3000); // Wait for 3000 millisecond(s)}
+</h3>
+
+<img src="image1.png" style="width: 250px" alt="">
+<img src="image3.png" style="width: 350px;" alt="">
+
+<h3>Sinaleiro funcionando:</h3>
+
+<img src="image2.jpg" style="width: 350px" alt="">
+<img src="image4.jpg" style="width: 350px" alt="">
+<img src="image5.jpg" style="width: 350px" alt="">
+
+    <video width="700px" height="300" controls="controls" autoplay="autoplay">
+        <source src="TinkerCad.mp4" type="video/mp4">
+        <object data="" width="700px" height="700px">
+        <embed width="700px" height="700px" src="TinkerCad.mp4">
+        </object>
+        </video>
+</body>
+</html>
